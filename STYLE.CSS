@@ -1,0 +1,294 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(#dcf8f3 , #fff);
+    
+}
+
+section{
+   overflow: hidden;
+}
+
+.hero{
+    min-height:90vh;
+}
+
+.hero-image{
+
+    position: relative;
+
+    width:100%;
+
+    height:600px;
+
+}
+.hero-person img{
+    border-radius: 20px;
+    height: 580px;
+    
+}
+
+.send-card{
+
+    position:absolute;
+
+    top:40px;
+
+    left:-30px;
+
+    background:#fff;
+
+   padding: 10px 10px;
+
+    border-radius:15px;
+
+    width:250px;
+    height: 100px;
+    
+
+}
+.income-card{
+
+    position:absolute;
+
+    bottom:90px;
+
+    left:-50px;
+
+    background:#fff;
+
+    padding:18px;
+
+    border-radius:15px;
+
+}
+.credit-card{
+
+    position:absolute;
+    right: 0px;
+    bottom: 10%;
+    width: 200px;
+    height: 220px;
+    padding:20px;
+}
+.icon{
+
+    position:absolute;
+
+    width:50px;
+
+    height:50px;
+
+    border-radius:12px;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    color:#fff;
+
+}
+.purple{
+
+    background:#5B4BFF;
+
+    left:-50px;
+
+    top:200px;
+    transform: rotate(-20deg);
+
+}
+.yellow{
+
+    background:#FFC54D;
+
+    right: 80px;
+
+    top:30px;
+    transform: rotate(20deg);
+
+}
+.pink{
+
+    background:#FF9E8D;
+
+    right: 140px;
+    bottom:0px;
+transform: rotate(20deg);
+}
+.companies img{
+    max-width: 140px;
+    transition: 0.3s;
+}
+
+.companies img:hover{
+    transform: scale(1.1);
+}
+.partner{
+    background-color: #F9F8FE;
+}
+
+.icon-box icon-box-1 icon-box-2{
+
+width:60px;
+
+height:40px;
+
+background:#fff;
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+box-shadow:0 10px 30px rgba(0,0,0,.08);
+
+font-size:24px;
+
+color:#54BD95;
+
+}
+.features{
+    background-color: white;
+}
+.benefits{
+
+    padding:80px 0;
+
+    background:linear-gradient(
+    90deg,
+    #ffffff,
+    #f7fffc
+    );
+
+}
+.image-box{
+
+    position:relative;
+    align-items: center;
+    justify-content: center;
+
+}
+.hero-person img{
+    border-radius: 20px;
+    height: 580px;
+    
+}
+.gallery-card{
+    position: absolute;
+    bottom: 250px;
+    left: -10%;
+    padding:10px;
+    color: white;
+    background-color: #54BD95;
+    border-radius: 5px;
+    transform: rotate(-20deg);
+}
+.total-card {
+    position:absolute;
+    background-color: white;
+    top: 30%;
+    right: -5%;
+    border-radius: 10px;
+    padding: 5px;
+    
+}
+.trans-card{
+    position: absolute;
+    background-color: white;
+    bottom: 13%;
+    border-radius: 10px;
+    padding: 5px;
+    left: -40px;
+}
+.profile-card{
+    position: absolute;
+    background-color: white;
+    padding: 10px;
+    top: 10%;
+    left: -20%;
+    border-radius: 10px;
+}
+.billing{
+    width:260px;
+    margin:40px auto;
+    background:white;
+    padding:8px;
+    border-radius:12px;
+    display:flex;
+    justify-content:space-between;
+    box-shadow:0 10px 20px rgba(0,0,0,.08);
+}
+
+
+.plan ul{
+    list-style: none;
+    align-items: center;
+    background-color: #F9FAFB;
+   
+}
+.feature-box{
+
+    border-radius:15px;
+
+    padding:25px;
+
+    margin-top:25px;
+
+}
+
+.card-pro{
+    background-color: #54BD95;
+}
+
+.faq{
+    color: white;
+    background-color: #161C28;
+    
+}
+
+
+.test-img img{
+    max-width: 50px;
+    gap: 4px;
+    transition: 0.3s;
+}
+.form-faq{
+    background-color: #222832
+}
+.footer{
+    color: white;
+    background-color: #161C28;
+}
+.email-box {
+    position: relative;
+    max-width: 320px;
+}
+
+.email-box input {
+    width: 100%;
+    height: 55px;
+    border: 1px solid #6b7280;
+    border-radius: 40px;
+    background: transparent;
+    color: white;
+    padding: 0 65px 0 20px;
+    outline: none;
+}
+
+.email-box input::placeholder {
+    color: #6f7173;
+}
+
+.email-box i {
+    position: absolute;
+    top: 30%;
+    right: 20px;
+}
